@@ -1,5 +1,5 @@
 // Access toggle switch HTML element
-var themeSwitcher = document.querySelector("theme-switcher");
+var themeSwitcher = document.querySelector("#theme-switcher");
 var container = document.querySelector(".container");
 
 // Set default mode to dart
