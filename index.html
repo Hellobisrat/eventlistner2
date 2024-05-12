@@ -3,11 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EventList</title>
+  <title>Click Event</title>
   <link rel="stylesheet" href="asstets/css/style.css">
   
 </head>
 <body>
-  <scrip src="asstets/js/script.js"></scrip>
+  <div class="container dark">
+  <div class="menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#home">Gallery</a></li>
+      <li><a href="#home">Contact</a></li>
+      <li><a href="#home">About</a></li>
+    </ul>
+  </div>
+  <div class="row toggle">
+    <div class="col">
+      <p>DARK MODE</p>
+    </div>
+    <label class="switch col">
+      <input type="checkbox" id="theme-switcher">
+      <span class="slider round"></span>
+    </label>
+    <div class="col">
+      <p>LIGHT MODE</p>
+    </div>
+  </div>
+  <div class="row">
+    <h2>Adding an Event Listener</h2>
+  </div>
+  <div class="row">
+    <div>
+      <p>We use the .addEventListener() method to set up  an element to listen for a specific event</p>
+      <p id="light-mode">When we switch the slider to "Light Mode", the background is changed to a light color.</p>
+      <P id="dark-mode">When we switch the slider to "Dark Mode", the background is changed to a dark color.</P>
+    </div>
+    <div class="footer">
+      <ul>
+        <li><a href="#home">Terms of use</a></li>
+        <li><a href="#gallery">Privacy policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+  <script src="asstets/js/script.js"></script>
 </body>
 </html>
